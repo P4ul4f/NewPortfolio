@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -12,7 +14,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/r1.jpg",
     spareImg: "",
   },
   {
@@ -37,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech lover dedicated to crafting innovative solutions",
+    title: "Currently pursuing a degree in Systems Engineering",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -48,12 +50,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently pursuing a degree in Systems Engineering",
+    title: "Tech lover dedicated to crafting innovative solutions ",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/b1.svg",
     spareImg: "/grid.svg",
   },
   {
@@ -73,25 +75,25 @@ export const projects = [
     id: 1,
     title: "E-commerce Platform for Precious Gemstones",
     des: "Developed an online marketplace for exquisite gemstones, ensuring a seamless shopping experience and secure transactions.",
-    img: "/p1.svg",
+    img: "/proj1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://luxury-gems.vercel.app",
   },
   {
     id: 2,
     title: "Next.js Web Application Development",
     des: "Developed a dynamic web application utilizing Next.js, focusing on performance optimization and seamless user experience.",
-    img: "/p2.svg",
+    img: "/proj2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg"],
-    link: "https://custom-website-p4ul4fs-projects.vercel.app",
+    link: "https://custom-website-eight.vercel.app",
   },
   {
     id: 3,
     title: "Full Stack Development of Cinefilos",
     des: "Created a web platform for cinephiles to explore, review, and discuss films, enhancing community engagement and user experience.",
-    img: "/p3.svg",
+    img: "/proj3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "",
   },
   {
     id: 4,
@@ -99,7 +101,7 @@ export const projects = [
     des: "something lorem ipsum lorem ifjejf eifeji doedkeo odekdo dekde ....",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "",
   },
 ];
 
@@ -204,9 +206,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/P4ul4f",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/paula-antonella-ferreyra-879983236/",
   },
 ];

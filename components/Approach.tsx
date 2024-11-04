@@ -20,7 +20,7 @@ const Approach = () => {
           <CanvasRevealEffect
             animationSpeed={5.1}
             // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-violet-300 rounded-3xl overflow-hidden"
           />
         </Card>
         <Card
@@ -31,11 +31,11 @@ const Approach = () => {
           <CanvasRevealEffect
             animationSpeed={3}
             // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-violet-400 rounded-3xl overflow-hidden"
             colors={[
               // change the colors of the
-              [255, 166, 158],
-              [221, 255, 247],
+              [179, 160, 238],
+              [255, 255, 255],
             ]}
             dotSize={2}
           />
@@ -50,8 +50,8 @@ const Approach = () => {
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
+            containerClassName="bg-violet-500 rounded-3xl overflow-hidden"
+            colors={[[179, 160, 238]]}
           />
         </Card>
       </div>
@@ -65,7 +65,6 @@ const Card = ({
   title,
   icon,
   children,
-  // add this one for the desc
   des,
 }: {
   title: string;
@@ -86,7 +85,7 @@ const Card = ({
         //   you can generate the color from here https://cssgradient.io/
         background: "rgb(4,7,29)",
         backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+          "linear-gradient(90deg, rgba(212,174,238,1) 0%, rgba(148,187,233,1) 100%)",
       }}
     >
       {/* change to h-10 w-10 , add opacity-30  */}
