@@ -102,7 +102,7 @@ export const projects = [
     des: "Created a web platform for cinephiles to explore, review, and discuss films, enhancing community engagement and user experience.",
     img: "/proj3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/java.png", "/mysql.png"],
-    link: "",
+    link: "https://github.com/P4ul4f/CinefilosBack",
   },
   {
     id: 4,
