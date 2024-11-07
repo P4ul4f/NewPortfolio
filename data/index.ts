@@ -102,7 +102,7 @@ export const projects = [
     des: "Developed a comprehensive healthcare platform to streamline patient registration, appointment scheduling, and medical record management. Implemented complex forms and integrated SMS notifications to enhance user engagement and ensure timely communication.",
     img: "/proj4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/twilio.png"],
-    link: "",
+    link: "https://cure-space.vercel.app",
   },
   {
     id: 4,
