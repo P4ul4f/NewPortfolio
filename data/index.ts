@@ -97,21 +97,21 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Healthcare Platform Development",
+    name: "CureSpace",
+    des: "Developed a comprehensive healthcare platform to streamline patient registration, appointment scheduling, and medical record management. Implemented complex forms and integrated SMS notifications to enhance user engagement and ensure timely communication.",
+    img: "/proj4.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/twilio.png"],
+    link: "",
+  },
+  {
+    id: 4,
     title: "Full Stack Development of Cinéfilos",
     name: "Cinéfilos",
     des: "Created a web platform for cinephiles to explore, review, and discuss films, enhancing community engagement and user experience.",
     img: "/proj3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/java.png", "/mysql.png"],
     link: "https://github.com/P4ul4f/CinefilosBack",
-  },
-  {
-    id: 4,
-    title: "Healthcare Platform Development",
-    name: "CureSpace",
-    des: "Currently developing a comprehensive healthcare platform to streamline patient registration, appointment scheduling, and medical record management. Working on implementing complex forms and integrating SMS notifications to enhance user engagement and ensure timely communication.",
-    img: "/proj4.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/twilio.png"],
-    link: "",
   },
 ];
 
