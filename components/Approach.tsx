@@ -10,7 +10,7 @@ const Approach = () => {
         My <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
-      <div className="my-10 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <div className="my-16 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
           title="Needs Assessment"
