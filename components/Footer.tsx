@@ -38,7 +38,7 @@ const Footer = () => {
           Copyright © 2024 Paula Ferreyra
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6 sm:mt-4">
+        <div className="flex items-center md:gap-3 gap-6 sm:pt-6">
           {socialMedia.map((info) => (
             <div
               key={info.id}
