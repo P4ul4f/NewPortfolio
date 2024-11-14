@@ -5,12 +5,12 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full sm:pb-24 md:py-20 lg:py-20">
+    <section className="w-full sm:py-16 md:py-20 lg:py-20 lg:mb-16 md:mb-16">
       <h1 className="heading">
         My <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
-      <div className="my-16 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <div className="my-12 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
           title="Needs Assessment"

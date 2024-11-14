@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="md:py-28 sm:py-32 py-28 h-full">
+    <div className="md:py-28 sm:py-36 py-30 h-full">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -56,7 +56,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-4 sm:mb-8 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Paula, an Argentina-based developer dedicated to
             building innovative digital solutions.
           </p>
