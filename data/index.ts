@@ -127,8 +127,8 @@ export const projects = [
     title: "Clip Heaven Video Streaming Platform",
     name: "Clip Heaven",
     des: "Created a video streaming platform powered by the YouTube API using React.js. Focused on delivering seamless video playback, responsive design, and efficient API integration to provide an experience similar to YouTube",
-    img: "/proj3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/java.png", "/mysql.png"],
+    img: "/proj6.png",
+    iconLists: ["/re.svg", "/js.png", "/tail.svg", "/rapid.png"],
     link: "https://clip-heaven.vercel.app",
   },
 ];
