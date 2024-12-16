@@ -61,7 +61,7 @@ const Hero = () => {
             building innovative digital solutions.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
