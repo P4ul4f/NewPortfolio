@@ -61,9 +61,9 @@ const Hero = () => {
             building innovative digital solutions.
           </p>
 
-          <a href="#projects">
+          <a href="/CV_PaulaFerreyra.pdf" download>
             <MagicButton
-              title="Show my work"
+              title="Download CV"
               icon={<FaLocationArrow />}
               position="right"
             />
