@@ -70,7 +70,7 @@ const Approach = () => {
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-tech rounded-3xl overflow-hidden"
-            colors={[[179, 160, 238]]}
+            colors={[[255, 255, 255]]}
           />
         </Card>
       </div>
